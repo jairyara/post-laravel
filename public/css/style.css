@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 10px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #5534A5;
+}
+
+.header img  {
+    height: 100%;
+}
+
+.header h1 {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5534A5;
+    color: white;
+}
+
+.shop-content {
+    width: 100%;
+    height: calc(100vh - 150px);
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.form input {
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #5534A5;
+}
+
+.form label {
+    font-weight: 700;
+    color: #5534A5;
+}
+
+.form button {
+    height: 45px;
+    background-color: #A85CF9;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ticket {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% + 150px);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #A85CF9;
+    color: white;
+}
